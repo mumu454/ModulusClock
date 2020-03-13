@@ -20,9 +20,9 @@ public class Main {
 
         System.out.println(" The time is: " + hours + ":" + minutes);
          hours = minutes >= 60 ? ++hours : hours ;
-         minutes = minutes %60;
-
         hours = hours %12;
+        minutes = minutes %60;
+        
 
 
 
